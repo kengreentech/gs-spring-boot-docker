@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2020-05-08T18:01:33.391Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "AWS:AIDAIFHJR2PPKT5QKRO5W"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "71.239.189.189"
+            },
+            "responseElements": {
+                "x-amz-request-id": "3C50647976EB789F",
+                "x-amz-id-2": "5CDz9rBdP7g6NGaqegUodFGr68Fkm8sF4YuopfBk7gkjTFE54tFd0ISrO3OfEEeTa+08icEZjKEI6Fc6qFgvsIadWwujntf8"
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "s3-create-object",
+                "bucket": {
+                    "name": "kengreentech-serverless-tube-upload",
+                    "ownerIdentity": {
+                        "principalId": "A3UEQ8BGWBFAWV"
+                    },
+                    "arn": "arn:aws:s3:::kengreentech-serverless-tube-upload"
+                },
+                "object": {
+                    "key": "README.txt",
+                    "size": 2612,
+                    "eTag": "8b7f504909d79405af7bb91a342c30a2",
+                    "sequencer": "005EB59E7F36C4217A"
+                }
+            }
+        }
+    ]
+}
